@@ -18,5 +18,16 @@
   "homepage": "https://github.com/rkerrigan/app-ip_address#readme",
   "dependencies": {
     "ip-cidr": "^2.1.3"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "An",
+    "IAP",
+    "product",
+    "serving",
+    "IP",
+    "address",
+    "management",
+    "functions."
+  ]
 }
