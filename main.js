@@ -43,8 +43,9 @@ function getFirstIpAddress(cidrStr, callback) {
   // The IAP convention is to pass returned data as the first argument and error
   // data as the second argument to the callback function.
   return callback(firstIpAddress, callbackError);
-}
-/**
+}/**
+
+
  * Calculates an IPv4-mapped IPv6 address.
  * @param {string} ipv4 - An IPv4 address in dotted-quad format.
  * @return {*} (ipv6Address) - An IPv6 address string or null if a run-time problem was detected.
